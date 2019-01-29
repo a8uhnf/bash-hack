@@ -1,0 +1,1 @@
+for i in {1..10}; do echo "table->string('Diag${i}')->nullable();"; done | | awk '{ printf "$%s\n", $1 }'
