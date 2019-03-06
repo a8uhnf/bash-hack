@@ -1,0 +1,1 @@
+kc get secrets -n filebeat filebeat -o jsonpath="{.data['filebeat\.yml']}"
