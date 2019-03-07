@@ -1,0 +1,1 @@
+unzip ~/Downloads/vault_1.0.3_darwin_amd64.zip; mv vault (which vault)
