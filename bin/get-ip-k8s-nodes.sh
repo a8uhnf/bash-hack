@@ -1,0 +1,1 @@
+kc get nodes ip-172-20-33-146.ap-southeast-1.compute.internal -o jsonpath="{.status.addresses[1].address}"
