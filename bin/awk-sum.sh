@@ -1,0 +1,1 @@
+cat b.txt | awk '{sum += $2} END {print sum}'
