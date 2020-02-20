@@ -1,0 +1,1 @@
+cat deploy_ns_image.txt |paste - - # remove each 2nd line's newline and bring it in one line
