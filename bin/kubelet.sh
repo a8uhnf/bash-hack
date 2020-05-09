@@ -3,3 +3,5 @@ systemctl cat kubelet
 
 # follow kubelet logs
 journalctl -flu kubelet
+
+# /etc/default/kubelet
