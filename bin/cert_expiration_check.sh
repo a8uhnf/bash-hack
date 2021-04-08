@@ -1,1 +1,4 @@
-openssl s_client -servername stickerdriver.com -connect stickerdriver.com:443 | openssl x509 -noout -dates
+#!/bin/bash
+DOM="stickerdriver.com"
+PORT="443"
+openssl s_client -servername ${DOM} -connect ${DOM}:${PORT} | openssl x509 -noout -dates
