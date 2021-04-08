@@ -1,0 +1,1 @@
+openssl s_client -servername stickerdriver.com -connect stickerdriver.com:443 | openssl x509 -noout -dates
